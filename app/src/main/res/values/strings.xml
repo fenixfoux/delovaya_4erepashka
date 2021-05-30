@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">delovaya_4erepaska</string>
-    <string name="defaul_button">knopO4ka</string>
+    <string name="default_button">knopO4ka</string>
     <string name="default_task">default task</string>
+    <string name="button_back">назад</string>
 </resources>
