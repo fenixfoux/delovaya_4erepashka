@@ -31,6 +31,7 @@
                 android:id="@+id/category_one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 app:srcCompat="@drawable/category_1" />
         </LinearLayout>
 
@@ -46,6 +47,8 @@
                 android:id="@+id/category_two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/category_2" />
         </LinearLayout>
 
@@ -61,6 +64,7 @@
                 android:id="@+id/category_three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 app:srcCompat="@drawable/category_3" />
         </LinearLayout>
 
@@ -74,11 +78,13 @@
 
             <ImageView
                 android:id="@+id/category_four"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 app:srcCompat="@drawable/category_4" />
         </LinearLayout>
 
 
     </LinearLayout>
+
 </RelativeLayout>
