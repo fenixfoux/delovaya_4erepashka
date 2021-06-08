@@ -3,4 +3,7 @@
     <string name="default_button">knopO4ka</string>
     <string name="default_task">default task</string>
     <string name="button_back">назад</string>
+    <string name="button_exit">выход</string>
+    <string name="new_category">создать</string>
+    <string name="selected_category">category namename default</string><!--may be need to require max length -->
 </resources>

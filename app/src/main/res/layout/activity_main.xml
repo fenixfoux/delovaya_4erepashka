@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_wrapper"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:layout_gravity="bottom"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
     android:background="#19191B"
-    android:minHeight="100dp">
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="70dp"
+        android:baselineAligned="false"
         android:orientation="horizontal"
-        android:padding="20dp"
-        android:weightSum="100"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginTop="10dp"
         >
 
 
         <LinearLayout
+            android:id="@+id/wrap_icon_category_mp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="25"
+            android:layout_weight="1"
             android:orientation="horizontal"
             android:gravity="center"
             >
@@ -38,7 +40,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="25"
+            android:layout_weight="1"
             android:orientation="horizontal"
             android:gravity="center"
             >
@@ -55,7 +57,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="25"
+            android:layout_weight="1"
             android:orientation="horizontal"
             android:gravity="center"
             >
@@ -71,7 +73,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="25"
+            android:layout_weight="1"
             android:orientation="horizontal"
             android:gravity="center"
             >
@@ -87,4 +89,56 @@
 
     </LinearLayout>
 
-</RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100"
+            android:gravity="center"
+            android:baselineAligned="false"
+            >
+
+            <Button
+                android:id="@+id/button_exit"
+                android:background="@drawable/button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button_exit" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100"
+            android:gravity="center"
+            android:baselineAligned="false"
+            >
+
+            <Button
+                android:id="@+id/new_category"
+                android:background="@drawable/button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/new_category" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

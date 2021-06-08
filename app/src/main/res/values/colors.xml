@@ -11,4 +11,5 @@
 
     <color name="default_text_color">#3E972E</color>
     <color name="button_stroke">#E82A4FB1</color>
+    <color name="transparent">#00FFFFFF</color>
 </resources>
