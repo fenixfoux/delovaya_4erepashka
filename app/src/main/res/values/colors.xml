@@ -9,6 +9,7 @@
     <color name="black95">#68000000</color>
     <color name="white">#ffffff</color>
 
+    <color name="default_background">#19191B</color>
     <color name="default_text_color">#3E972E</color>
     <color name="button_stroke">#E82A4FB1</color>
     <color name="transparent">#00FFFFFF</color>

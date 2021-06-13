@@ -4,6 +4,10 @@
     <string name="default_task">default task</string>
     <string name="button_back">назад</string>
     <string name="button_exit">выход</string>
+
+
     <string name="new_category">создать</string>
+    <string name="title_new_category">создать новую категорию</string>
+    <string name="select_icon_for_category">выбрать иконку</string>
     <string name="selected_category">category namename default</string><!--may be need to require max length -->
 </resources>
